@@ -1,0 +1,37 @@
+Picked up JAVA_TOOL_OPTIONS:  -Dlog4j1.compatibility=true
+BatchResourceHolder security mode   R
+GOPYJAV Version 8.11.S1.4
+2024/09/23 15:53:44
+Invoking process BAN_DEREG
+     Deregistration Process
+     Job Submission Number: 831538
+BAN_DEREG completed processing.
+BAN_DEREG log:
+  BPKZ_BAN_DEREG.FY_MAIN: Receive parameters
+  BPKZ_BAN_DEREG.FY_MAIN: Validate parameters
+  BPKZ_BAN_DEREG.FY_MAIN: Set global variables
+  BPKZ_BAN_DEREG.FY_MAIN: Print control report
+  BPKZ_BAN_DEREG.FY_MAIN: Check for errors
+  BPKZ_BAN_DEREG.FY_MAIN: Run Main
+  Begin DEREGISTRATION.py_Main                                                    23-SEP-2024 15:53:44
+  Begin py_Main for Term: 202480
+  Number of Successfully Inserted Records: 4
+  End SZRDREG .py_Main                                                            23-SEP-2024 15:53:45
+End BAN_DEREG log. 
+
+19 lines written to /home/banjob/gurjobs/TEST/ban_dereg_831538.lis
+BAN_DEREG completed printing.
+BAN_DEREG completed successfully.
+removeJobParameters
+closeResources
+Gopyjav complete.
+Picked up JAVA_TOOL_OPTIONS:  -Dlog4j1.compatibility=true
+openjdk version "1.8.0_402"
+OpenJDK Runtime Environment (build 1.8.0_402-b06)
+OpenJDK 64-Bit Server VM (build 25.402-b06, mixed mode)
+Connected.
+Confirming security mode R has proxy setting Y
+Connection using Oracle Role Security Mode
+Connected.
+Confirming security mode R has proxy setting Y
+Connection using Oracle Role Security Mode

@@ -1,0 +1,13 @@
+I have copied ban_dereg.shl from (OL7) ban202 test to ban201 prod and ban202 pprd.
+I also, copied to (OL8) ban281 prod as well as ban280 test and pprd.
+There is an original located at /banner/sicas as well as /banner/esc/banprod/links (bantest and banpprd).
+
+Table: BANINST1.SZRDREG needs to be moved to PROD and owner changed to ESCOBJECTS
+Synonym: Create synonym for ESCOBJECTS.SZRDREG (SZRDREG)
+
+package: BANINST1.BPKZ_BAN_DEREG needs to be moved to PROD and owner changed to ESCOBJECTS
+
+Banner job (See attached Word doc for details): BAN_DEREG needs to be created in PROD within Banner Access Management - copy the congfiguation from test.
+	Then update GJAJOBS, GJAPDEF and GJAPDFT taking config from test from Banner AppNav.
+	Confirm tables: GURAOBJ and GUBOBJS have entries for BAN_DEREG; If not copy from test.
+
